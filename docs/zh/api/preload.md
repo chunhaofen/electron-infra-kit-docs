@@ -194,7 +194,7 @@ interface Window {
 
 ## 相关链接
 
-- [快速开始](/zh/guide/getting-started)
-- [IPC 路由指南](/zh/guide/core-concepts/ipc-router)
-- [MessageBus 指南](/zh/guide/core-concepts/message-bus)
-- [类型安全](/zh/guide/advanced/type-safety)
+- [快速开始](/guide/getting-started)
+- [IPC 路由指南](/guide/core-concepts/ipc-router)
+- [MessageBus 指南](/guide/core-concepts/message-bus)
+- [类型安全](/guide/advanced/type-safety)

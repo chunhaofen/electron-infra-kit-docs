@@ -357,38 +357,38 @@ my-electron-app/
 
 ### 核心概念
 
-- **[窗口管理器](/zh/guide/core-concepts/window-manager)** - 深入了解窗口生命周期管理、插件系统
-- **[IPC 路由](/zh/guide/core-concepts/ipc-router)** - 学习如何定义类型安全的 IPC 处理程序
-- **[消息总线](/zh/guide/core-concepts/message-bus)** - 掌握跨窗口状态同步的高级用法
-- **[生命周期管理](/zh/guide/core-concepts/lifecycle)** - 了解应用生命周期钩子
+- **[窗口管理器](/guide/core-concepts/window-manager)** - 深入了解窗口生命周期管理、插件系统
+- **[IPC 路由](/guide/core-concepts/ipc-router)** - 学习如何定义类型安全的 IPC 处理程序
+- **[消息总线](/guide/core-concepts/message-bus)** - 掌握跨窗口状态同步的高级用法
+- **[生命周期管理](/guide/core-concepts/lifecycle)** - 了解应用生命周期钩子
 
 ### 实用示例
 
-- **[基础配置](/zh/examples/basic-setup)** - 完整的项目配置示例
-- **[多窗口应用](/zh/examples/multi-window)** - 创建和管理多个窗口
-- **[IPC 通信](/zh/examples/ipc-communication)** - 高级 IPC 通信模式
-- **[状态同步](/zh/examples/state-sync)** - 复杂的状态同步场景
-- **[完整应用](/zh/examples/complete-app)** - 综合使用所有功能的完整应用
+- **[基础配置](/examples/basic-setup)** - 完整的项目配置示例
+- **[多窗口应用](/examples/multi-window)** - 创建和管理多个窗口
+- **[IPC 通信](/examples/ipc-communication)** - 高级 IPC 通信模式
+- **[状态同步](/examples/state-sync)** - 复杂的状态同步场景
+- **[完整应用](/examples/complete-app)** - 综合使用所有功能的完整应用
 
 ### 进阶主题
 
-- **[类型安全](/zh/guide/advanced/type-safety)** - TypeScript 最佳实践
-- **[性能优化](/zh/guide/advanced/performance)** - 提升应用性能的技巧
-- **[错误处理](/zh/guide/advanced/error-handling)** - 健壮的错误处理策略
-- **[调试技巧](/zh/guide/advanced/debugging)** - 使用调试工具排查问题
+- **[类型安全](/guide/advanced/type-safety)** - TypeScript 最佳实践
+- **[性能优化](/guide/advanced/performance)** - 提升应用性能的技巧
+- **[错误处理](/guide/advanced/error-handling)** - 健壮的错误处理策略
+- **[调试技巧](/guide/advanced/debugging)** - 使用调试工具排查问题
 
 ### API 参考
 
-- **[API 概览](/zh/api/)** - 完整的 API 文档
-- **[WindowManager API](/zh/api/window-manager)** - 窗口管理器 API 详解
-- **[IpcRouter API](/zh/api/ipc-router)** - IPC 路由 API 详解
-- **[MessageBus API](/zh/api/message-bus)** - 消息总线 API 详解
+- **[API 概览](/api/)** - 完整的 API 文档
+- **[WindowManager API](/api/window-manager)** - 窗口管理器 API 详解
+- **[IpcRouter API](/api/ipc-router)** - IPC 路由 API 详解
+- **[MessageBus API](/api/message-bus)** - 消息总线 API 详解
 
 ## 需要帮助？
 
 如果您遇到问题或有疑问：
 
-- 📖 查看 [完整文档](/zh/guide/introduction)
+- 📖 查看 [完整文档](/guide/introduction)
 - 💬 在 [GitHub Issues](https://github.com/chunhaofen/electron-infra-kit/issues) 提问
 - 🌟 给项目一个 [Star](https://github.com/chunhaofen/electron-infra-kit) 支持我们
 

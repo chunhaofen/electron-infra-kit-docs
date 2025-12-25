@@ -792,9 +792,9 @@ npm start
 
 ## 下一步
 
-- 查看 [API 参考](/zh/api/) 了解更多功能
-- 学习 [最佳实践](/zh/guide/best-practices.md)
-- 探索 [进阶主题](/zh/guide/advanced/type-safety.md)
+- 查看 [API 参考](/api/) 了解更多功能
+- 学习 [最佳实践](/guide/best-practices.md)
+- 探索 [进阶主题](/guide/advanced/type-safety.md)
 
 ## 扩展建议
 

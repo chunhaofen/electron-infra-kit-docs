@@ -226,4 +226,4 @@ await windowManager.create(options);
 - [WindowManager API](./window-manager.md)
 - [IpcRouter API](./ipc-router.md)
 - [MessageBus API](./message-bus.md)
-- [快速开始](/zh/guide/getting-started)
+- [快速开始](/guide/getting-started)

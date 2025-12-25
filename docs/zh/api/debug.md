@@ -189,5 +189,5 @@ console.log('Performance measures:', measures);
 
 ## 相关链接
 
-- [调试技巧](/zh/guide/advanced/debugging)
-- [性能优化](/zh/guide/advanced/performance)
+- [调试技巧](/guide/advanced/debugging)
+- [性能优化](/guide/advanced/performance)

@@ -684,4 +684,4 @@ const handler = new IpcHandler<Context, GetDataPayload, any>(
 
 - 查看 [性能优化指南](./performance.md) 了解如何优化应用性能
 - 查看 [错误处理指南](./error-handling.md) 了解错误处理最佳实践
-- 查看 [API 参考](/zh/api/index.md) 了解完整的 API 文档
+- 查看 [API 参考](/api/index.md) 了解完整的 API 文档

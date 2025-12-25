@@ -97,12 +97,12 @@
 1. **阅读代码**：每个示例都包含完整的、可运行的代码
 2. **理解概念**：通过注释和说明理解每个功能的用途
 3. **动手实践**：将代码复制到你的项目中并进行修改
-4. **参考文档**：结合 [API 参考](/zh/api/) 深入了解每个功能
+4. **参考文档**：结合 [API 参考](/api/) 深入了解每个功能
 
 ## 需要帮助？
 
 如果你在使用示例时遇到问题：
 
-- 查看 [快速开始指南](/zh/guide/getting-started.md)
-- 阅读 [核心概念文档](/zh/guide/core-concepts/window-manager.md)
+- 查看 [快速开始指南](/guide/getting-started.md)
+- 阅读 [核心概念文档](/guide/core-concepts/window-manager.md)
 - 访问 [GitHub Issues](https://github.com/chunhaofen/electron-infra-kit/issues)

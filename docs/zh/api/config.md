@@ -38,5 +38,5 @@ await config.save();
 
 ## 相关链接
 
-- [快速开始](/zh/guide/getting-started)
-- [最佳实践](/zh/guide/best-practices)
+- [快速开始](/guide/getting-started)
+- [最佳实践](/guide/best-practices)

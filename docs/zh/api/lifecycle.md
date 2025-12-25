@@ -128,7 +128,7 @@ app.on('will-quit', async () => {
 
 ## 相关链接
 
-- [快速开始](/zh/guide/getting-started)
+- [快速开始](/guide/getting-started)
 - [WindowManager API](./window-manager.md)
 - [IpcRouter API](./ipc-router.md)
 - [MessageBus API](./message-bus.md)

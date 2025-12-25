@@ -788,7 +788,7 @@ messageBus.subscribe(windowId, ['user', 'theme']);
 
 ## 相关链接
 
-- [快速开始](/zh/guide/getting-started)
-- [MessageBus 指南](/zh/guide/core-concepts/message-bus)
+- [快速开始](/guide/getting-started)
+- [MessageBus 指南](/guide/core-concepts/message-bus)
 - [WindowManager API](./window-manager.md)
 - [类型定义](./types.md)

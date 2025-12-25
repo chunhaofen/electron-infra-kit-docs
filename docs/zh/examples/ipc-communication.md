@@ -643,8 +643,8 @@ handler: async (params) => {
 ## 下一步
 
 - 学习 [状态同步](./state-sync.md) 示例
-- 查看 [IpcRouter API](/zh/api/ipc-router.md) 文档
-- 了解 [错误处理](/zh/guide/advanced/error-handling.md) 最佳实践
+- 查看 [IpcRouter API](/api/ipc-router.md) 文档
+- 了解 [错误处理](/guide/advanced/error-handling.md) 最佳实践
 
 ## 常见问题
 

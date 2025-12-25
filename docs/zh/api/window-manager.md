@@ -765,7 +765,7 @@ app.on('will-quit', () => {
 
 ## 相关链接
 
-- [快速开始](/zh/guide/getting-started)
-- [窗口管理器指南](/zh/guide/core-concepts/window-manager)
+- [快速开始](/guide/getting-started)
+- [窗口管理器指南](/guide/core-concepts/window-manager)
 - [IpcRouter API](./ipc-router.md)
 - [MessageBus API](./message-bus.md)

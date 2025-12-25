@@ -310,7 +310,7 @@ const messageBus = setupMessageBus();
 
 - 学习 [多窗口应用](./multi-window.md) 示例
 - 了解 [IPC 通信](./ipc-communication.md) 的详细用法
-- 查看 [API 参考](/zh/api/) 了解更多功能
+- 查看 [API 参考](/api/) 了解更多功能
 
 ## 常见问题
 

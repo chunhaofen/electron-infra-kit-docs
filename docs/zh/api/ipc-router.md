@@ -594,7 +594,7 @@ const ipcRouter = new IpcRouter<MyApi, MyIpcSchema>();
 
 ## 相关链接
 
-- [快速开始](/zh/guide/getting-started)
-- [IPC 路由指南](/zh/guide/core-concepts/ipc-router)
+- [快速开始](/guide/getting-started)
+- [IPC 路由指南](/guide/core-concepts/ipc-router)
 - [WindowManager API](./window-manager.md)
 - [类型定义](./types.md)

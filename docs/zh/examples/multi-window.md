@@ -542,7 +542,7 @@ try {
 
 - 学习 [IPC 通信](./ipc-communication.md) 的详细用法
 - 了解 [状态同步](./state-sync.md) 的实现方式
-- 查看 [WindowManager API](/zh/api/window-manager.md) 文档
+- 查看 [WindowManager API](/api/window-manager.md) 文档
 
 ## 常见问题
 

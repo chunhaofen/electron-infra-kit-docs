@@ -681,4 +681,4 @@ MessageBus 是 electron-infra-kit 中实现跨窗口状态同步的核心模块,
 
 - [Window Manager](./window-manager.md) - 窗口生命周期管理
 - [IPC Router](./ipc-router.md) - 类型安全的进程间通信
-- [API 参考](/zh/api/message-bus.md) - 完整的 API 文档
+- [API 参考](/api/message-bus.md) - 完整的 API 文档

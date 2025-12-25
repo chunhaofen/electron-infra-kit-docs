@@ -132,5 +132,5 @@ sharedLogger.info('Using shared logger');
 
 ## 相关链接
 
-- [快速开始](/zh/guide/getting-started)
-- [调试技巧](/zh/guide/advanced/debugging)
+- [快速开始](/guide/getting-started)
+- [调试技巧](/guide/advanced/debugging)

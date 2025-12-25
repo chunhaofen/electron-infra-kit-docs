@@ -833,8 +833,8 @@ try {
 ## 下一步
 
 - 查看 [完整应用示例](./complete-app.md)
-- 了解 [MessageBus API](/zh/api/message-bus.md)
-- 学习 [性能优化](/zh/guide/advanced/performance.md)
+- 了解 [MessageBus API](/api/message-bus.md)
+- 学习 [性能优化](/guide/advanced/performance.md)
 
 ## 常见问题
 
