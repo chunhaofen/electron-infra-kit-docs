@@ -1,0 +1,40 @@
+{
+  "name": "electron-infra-kit-docs",
+  "version": "1.0.0",
+  "description": "Official documentation for electron-infra-kit - A comprehensive infrastructure toolkit for Electron applications",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "check:links": "node scripts/check-links.js",
+    "check:consistency": "node scripts/check-consistency.js",
+    "check:performance": "node scripts/optimize-performance.js",
+    "test:functionality": "node scripts/test-functionality.js",
+    "verify:build": "node scripts/verify-build.js",
+    "check:all": "npm run check:links && npm run check:consistency && npm run check:performance"
+  },
+  "keywords": [
+    "electron",
+    "documentation",
+    "vitepress",
+    "electron-infra-kit",
+    "electron-toolkit",
+    "electron-infrastructure"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chunhaofen/electron-infra-kit-docs.git"
+  },
+  "homepage": "https://chunhaofen.github.io/electron-infra-kit-docs",
+  "bugs": {
+    "url": "https://github.com/chunhaofen/electron-infra-kit/issues"
+  },
+  "author": "chunhaofen",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.26"
+  }
+}

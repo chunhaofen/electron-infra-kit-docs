@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.vitepress/dist/
+.vitepress/cache/
+
+# VitePress cache and build
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS files
+Thumbs.db
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Optional: Keep pnpm-lock.yaml for reproducible builds
+# Uncomment if you want to ignore it
+# pnpm-lock.yaml

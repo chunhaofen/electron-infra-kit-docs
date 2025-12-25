@@ -1,0 +1,39 @@
+/* Custom styles for the documentation */
+
+:root {
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #2563eb;
+  --vp-c-brand-3: #1d4ed8;
+}
+
+.dark {
+  --vp-c-brand-1: #60a5fa;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #2563eb;
+}
+
+/* Improve code block appearance */
+.vp-doc div[class*='language-'] {
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+/* Improve link hover effect */
+.vp-doc a {
+  transition: color 0.2s;
+}
+
+.vp-doc a:hover {
+  color: var(--vp-c-brand-2);
+}
+
+/* Improve table appearance */
+.vp-doc table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Custom container styles */
+.vp-doc .custom-block {
+  border-radius: 8px;
+}
