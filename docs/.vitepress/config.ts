@@ -6,7 +6,7 @@ import { enConfig } from './config/en'
 export default defineConfig({
   title: 'electron-infra-kit',
   description: 'A comprehensive infrastructure toolkit for Electron applications',
-  base: '/',
+  base: '/electron-infra-kit-docs/',
   
   // Multi-language support
   locales: {
