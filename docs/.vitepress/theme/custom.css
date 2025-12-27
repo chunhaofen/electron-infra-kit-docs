@@ -1,39 +1,77 @@
-/* Custom styles for the documentation */
-
-:root {
-  --vp-c-brand-1: #3b82f6;
-  --vp-c-brand-2: #2563eb;
-  --vp-c-brand-3: #1d4ed8;
-}
-
-.dark {
-  --vp-c-brand-1: #60a5fa;
-  --vp-c-brand-2: #3b82f6;
-  --vp-c-brand-3: #2563eb;
-}
-
-/* Improve code block appearance */
-.vp-doc div[class*='language-'] {
+/* Mermaid 图表样式 */
+.mermaid-wrapper {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background: #fafafa;
   border-radius: 8px;
-  margin: 16px 0;
+  border: 1px solid #e1e4e8;
+  overflow-x: auto;
 }
 
-/* Improve link hover effect */
-.vp-doc a {
-  transition: color 0.2s;
+.dark .mermaid-wrapper {
+  background: #1a1a1a;
+  border-color: #30363d;
 }
 
-.vp-doc a:hover {
-  color: var(--vp-c-brand-2);
+.mermaid-wrapper svg {
+  max-width: 100%;
+  height: auto;
 }
 
-/* Improve table appearance */
-.vp-doc table {
-  border-radius: 8px;
-  overflow: hidden;
+.mermaid-error {
+  margin: 10px 0;
+  padding: 10px;
+  background: #fff5f5;
+  border: 1px solid #fed7d7;
+  border-radius: 4px;
+  color: #c53030;
 }
 
-/* Custom container styles */
-.vp-doc .custom-block {
-  border-radius: 8px;
+.dark .mermaid-error {
+  background: #2d1b1b;
+  border-color: #742a2a;
+  color: #fc8181;
+}
+
+/* 隐藏原始的 mermaid 代码块 */
+pre code.language-mermaid {
+  display: none;
+}
+
+pre.mermaid-processed {
+  display: none;
+}
+
+/* 确保图表在移动设备上正确显示 */
+@media (max-width: 768px) {
+  .mermaid-wrapper {
+    margin: 15px -20px;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+/* 优化图表中的文字显示 */
+.mermaid-wrapper .node rect,
+.mermaid-wrapper .node circle,
+.mermaid-wrapper .node ellipse,
+.mermaid-wrapper .node polygon {
+  stroke-width: 2px;
+}
+
+.mermaid-wrapper .edgePath .path {
+  stroke-width: 2px;
+}
+
+.mermaid-wrapper .edgeLabel {
+  background-color: white;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+.dark .mermaid-wrapper .edgeLabel {
+  background-color: #1a1a1a;
+  color: #e1e4e8;
 }

@@ -1,12 +1,24 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 import { zhConfig } from './config/zh'
 import { enConfig } from './config/en'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: 'electron-infra-kit',
   description: 'A comprehensive infrastructure toolkit for Electron applications',
   base: '/electron-infra-kit-docs/',
+  
+  // Vite configuration to fix mermaid dependencies
+  vite: {
+    optimizeDeps: {
+      include: ['mermaid'],
+      exclude: ['@mermaid-js/mermaid-mindmap']
+    },
+    ssr: {
+      noExternal: ['mermaid']
+    }
+  },
   
   // Multi-language support
   locales: {
@@ -35,6 +47,20 @@ export default defineConfig({
     theme: {
       light: 'github-light',
       dark: 'github-dark'
+    }
+  },
+
+  // Mermaid configuration
+  mermaid: {
+    // Configure mermaid theme to match VitePress theme
+    theme: 'default',
+    themeVariables: {
+      primaryColor: '#646cff',
+      primaryTextColor: '#fff',
+      primaryBorderColor: '#646cff',
+      lineColor: '#646cff',
+      secondaryColor: '#f6f8fa',
+      tertiaryColor: '#f6f8fa'
     }
   },
 
@@ -95,4 +121,4 @@ export default defineConfig({
       }
     }
   }
-})
+}))
